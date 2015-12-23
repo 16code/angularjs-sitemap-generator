@@ -1,13 +1,22 @@
 {
-  "name": "sitemap-generator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "angularjs-sitemap-generator",
+  "version": "0.1.0",
+  "description": "AngularJS && SPA Application Sitemap Generator",
+  "repository": "https://github.com/16code/angularjs-sitemap-generator.git",
+  "license": "MIT",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Liuxin",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "sitemap",
+    "generator",
+    "angularjs"
+  ],
   "dependencies": {
     "cheerio": "^0.19.0",
     "express": "^4.13.3",
